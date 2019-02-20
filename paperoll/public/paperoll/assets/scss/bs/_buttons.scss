@@ -1,0 +1,214 @@
+// Buttons
+
+.btn{
+  height: 36px;
+  padding: 7px 16px;
+  line-height: 20px;
+  font-size: 15px;
+  border-radius: 2px;
+  text-align: center;
+  @include transition(all .2s ease-in-out);
+  &:active, &.active,
+  &:focus, &.focus{
+    outline: none !important;
+    outline-offset: 0 !important;
+    // @include box-shadow(0 0 0 0 transparent);
+  }
+  &.btn-rounded{
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 18px;
+  }
+  &.btn-xxs{
+    height: 24px;
+    padding: 3px 8px;
+    font-size: 12px;
+    line-height: 16px;
+    &.btn-rounded{
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 12px;
+    }
+  }
+  &.btn-xs{
+    height: 28px;
+    padding: 5px 10px;
+    font-size: 13px;
+    line-height: 18px;
+    &.btn-rounded{
+      padding-left: 18px;
+      padding-right: 18px;
+      border-radius: 14px;
+    }
+  }
+  &.btn-sm{
+  	height: 32px;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    &.btn-rounded{
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 16px;
+    }
+  }
+  &.btn-lg{
+  	height: 40px;
+    padding: 7px 20px;
+    font-size: 16px;
+    line-height: 24px;
+    &.btn-rounded{
+      padding-left: 24px;
+      padding-right: 24px;
+      border-radius: 20px;
+    }
+  }
+  &.btn-xl{
+    height: 44px;
+    padding: 8px 24px 8px;
+    font-size: 18px;
+    line-height: 28px;
+    &.btn-rounded{
+      padding-left: 26px;
+      padding-right: 26px;
+      border-radius: 22px;
+    }
+  }
+  &.btn-xxl{
+    height: 48px;
+    padding: 9px 28px 9px;
+    font-size: 20px;
+    line-height: 28px;
+    &.btn-rounded{
+      padding-left: 28px;
+      padding-right: 28px;
+      border-radius: 24px;
+    }
+  }
+  &.ht-btn-default{
+    color: $grey900;
+    background-color: material-color('grey','50');
+    border-color: #ccc;
+    &:hover{
+      background-color: material-color('grey','100');
+    }
+  }
+  &.ht-btn-grey{
+    color: $grey900;
+    background-color: material-color('grey','200');
+    border-color: material-color('grey','200');
+    &:hover{
+      background-color: material-color('grey','300');
+      border-color: material-color('grey','300');
+    }
+  }
+  &.ht-btn-blue{
+    color: #fff;
+    background-color: material-color('blue','500');
+    border-color: transparent;
+    &:hover{
+      background-color: material-color('blue','700');
+    }
+  }
+  &.ht-btn-red{
+    color: #fff;
+    background-color: material-color('red','500');
+    border-color: transparent;
+    &:hover{
+      background-color: material-color('red','700');
+    }
+  }
+  &.ht-btn-green{
+    color: #fff;
+    background-color: material-color('green','500');
+    border-color: transparent;
+    &:hover{
+      background-color: material-color('green','700');
+    }
+  }
+  &.ht-btn-link{
+    color: $grey900;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  &.ht-btn-facebook{
+    color: #fff;
+    background-color: material-color('red','500');
+    border-color: transparent;
+    &:hover{
+      background-color: material-color('red','700');
+    }
+  }
+
+  &.ht-btn-primary{
+    color: #fff;
+    background-color: material-color('green','500');
+    border-color: transparent;
+    &:hover{
+      background-color: material-color('green','700');
+    }
+  }
+
+
+
+  &.btn-icon{
+    padding: 0;
+    width: 36px;
+    i{
+      display: inline-block;
+      vertical-align: top;
+      line-height: 34px;
+    }
+    &.btn-sm{
+      width: 32px;
+      i{
+        line-height: 30px;
+      }
+    }
+    &.btn-lg{
+      width: 40px;
+      i{
+        line-height: 38px;
+      }
+    }
+    &.btn-lg{
+      width: 44px;
+      i{
+        line-height: 42px;
+      }
+    }
+  }
+  @each $social-name, $color-name in $social-color {
+    &.ht-btn-#{$social-name}{
+      color: #fff;
+      background-color: $color-name;
+      border-color: transparent;
+      &:hover{
+        background-color: darken($color-name,5%);
+      }
+    }
+  }
+  &.has-social-icon{
+    position: relative;
+    padding-left: 52px;
+    .social-icon{
+      display: block;
+      position: absolute;
+      top: 50%; left: 8px;
+      padding-right: 4px;
+      width: 32px;
+      text-align: center;
+      margin-top: -11px;
+      font-size: 18px;
+      line-height: 22px;
+      border-right: 1px solid rgba(#fff,.12);
+      img{
+        display: inline-block;
+        vertical-align: top;
+        height: 16px;
+        margin-top: 3px;
+      }
+    }
+  }
+}
+

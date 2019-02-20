@@ -1,0 +1,31 @@
+// MIXINS
+
+// Clear
+@mixin clearfix(){
+  &:before,
+  &:after{ 
+  	content: " "; 
+  	display: table;
+  }
+  &:after{
+  	clear: both; 
+  }
+}
+@mixin clearall(){
+  &:before,
+  &:after{
+  	content: " ";
+  	display: table;
+  	clear: both;
+  }
+}
+
+// Lines
+@mixin multiLineEllipsis($lines-to-show){
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'login' => 'Login',
+    'register' => 'Register',
+    'email' => 'Email',
+    'username' => 'Username',
+    'password' => 'Password',
+    're_password' => 'Re-password',
+    'phone' => 'Phone',
+    'agency_code' => 'Agency Code',
+    'language' => 'Language',
+    'submit' => 'Submit',
+    'lang' => [
+        'en' => 'English',
+        'vi' => 'Tiếng Việt',
+    ],
+    'username_rq'=>'The username field is required',
+    'password_rq'=>'The password field is required',
+    're_password_rq'=>'The re-password field is required',
+    'user_lock'=>'The account has been locked',
+    'wrong_user_pass'=>'Wrong username or password!',
+    'error'=>'The system has been error',
+    'captcha_rq'=>'The captcha field is required',
+    'captcha_wrong'=>'Wrong captcha',
+    'username_min'=>'The username must be at least 6 characters',
+    'password_min'=>'The password must be at least 6 characters',
+    're_password_same'=>'Wrong re-password',
+    'email_rq'=>'The email field is required',
+    'email_email'=>'E-mail wrong format ',
+    'phone_rq'=>'The phone field is required',
+    'account_exist'=>'The account has been exist',
+    'phone_exist'=>'The phone has been exist',
+    'email_exist'=>'The E-mail has been exist',
+    'agency_not_exist'=>'The agency has not been exist',
+
+];

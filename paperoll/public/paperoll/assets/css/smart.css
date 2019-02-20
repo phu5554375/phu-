@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+@media (max-width: 640px) {
+	section.hello {
+    height: inherit; display: block; height: 390px;
+}
+section.hello article {
+    padding: 0 30px 30px 30px;
+    width: 100%;
+}
+section.hello article {
+    text-align: center;
+}
+a.start {
+    width: 90%;
+    min-width: 100px!important;
+}
+section.highlights {
+    padding-top: 20px;
+}
+section.highlights ul {
+    display: block;margin-left: -30px;
+}
+section.highlights ul li {
+    margin-bottom: 30px;
+}
+.config-panel .order-btn{ width: 100% }
+.pictures-item {
+    display: block;
+}
+.pictures-item-image {
+    width: 100%;
+    height: 380px;
+}
+.pictures-item-text {
+    width: 100%;
+    padding: 0;
+}
+section.newsletter form input[type="email"], section.newsletter form input[type="submit"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+section.newsletter form input[type="email"], section.newsletter form input[type="submit"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+footer nav a.link {
+    margin-right: 3px;
+}
+footer nav a.social {
+    margin-left: 12px;
+}
+section.page{ width: 100%; }
+
+.roll-wrapper {
+    width: 100%;
+    margin: 20px auto;
+}
+.roll-wrapper img.logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.roll-wrapper .roll-title {
+    display: none;
+}
+.roll {
+    padding: 20px;
+    width: 100vw;
+  
+}
+.app {
+    margin: auto;
+    width: 100vw;
+}
+.album-panel { position: relative; margin: 0; width: 100vw}
+.config-panel {
+    display: block; position: relative;
+}
+.config-panel{ margin: 0; width: 100vw }
+.config-panel button.order-btn:disabled{width: 100vw}
+@media (max-width: 900px){
+section.hello article {
+    width: 100%;
+}
+}

@@ -1,0 +1,183 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+input, select, button {
+    outline: none !important;
+}
+
+a:active, a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+
+body {
+    /*overflow-x: hidden;*/
+    /*background-color: #E8EFF5;*/
+    background: -moz-linear-gradient(top, #ffffff 0%, #e2e9f1 80%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #e2e9f1 80%);
+    background: -o-linear-gradient(top, #ffffff 0%, #e2e9f1 80%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #e2e9f1 80%);
+    background: linear-gradient(to bottom, #ffffff 0%, #e2e9f1 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e2e9f1', GradientType=0);
+
+}
+
+html {
+    background-color: #e2e9f1;
+}
+
+.slick-arrow {
+    -webkit-appearance: button;
+    display: none !important;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none !important;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    padding: 10px;
+    width: 1024px;
+    margin: 0 auto;
+}
+.header img{
+    width: 168px;
+}
+
+.bg {
+}
+
+.wrap-login {
+    padding: 29px 0;
+}
+
+.wrap-login #form-login .form-group {
+    margin: 0 3px;
+}
+
+.wrap-login #form-login input {
+    height: 38px;
+    vertical-align: middle;
+    width: 167px;
+}
+
+.wrap-login #form-login select {
+    height: 38px;
+}
+
+#btn-login {
+    background-color: #f26522;
+    border: 1px solid;
+    color: #fff;
+    margin: 0 4px;
+    height: 38px;
+    padding: 0 12px;
+}
+
+#btn-reg {
+    border: 1px solid;
+    color: #fff;
+    margin: 0 4px;
+    height: 38px;
+    padding: 6px 17px;
+}
+
+.wrap-login #form-login select { /* Chrome/Opera/Safari */
+    padding: 0 9px;
+}
+
+#banner {
+    margin-top: 35px;
+}
+
+.big-banner .slick-dots, .small-banner .slick-dots {
+    bottom: 0;
+}
+
+.big-banner .slick-dots li button:before, .small-banner .slick-dots li button:before {
+    font-size: 10px;
+    opacity: 1;
+}
+
+.big-banner .slick-dots li.slick-active button:before, .small-banner .slick-dots li.slick-active button:before {
+    color: #fff;
+}
+
+.slick-slide img {
+
+    border-radius: 5px;
+    width: 100%;
+    min-height: 325px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 15px;
+}
+
+#modalReg .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #f26522;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+#modalReg .form-group {
+    margin-bottom: 4px;
+
+}
+
+#btn-register {
+    border: 1px solid;
+    color: #fff;
+    margin: 0 4px;
+    padding: 6px 29px;
+    text-transform: uppercase;
+    background-color: #FF5722;
+    margin-top: 11px;
+    height: 44px;
+}
+
+#modalReg label > span {
+    color: red;
+}

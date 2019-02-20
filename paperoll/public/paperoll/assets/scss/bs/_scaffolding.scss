@@ -1,0 +1,23 @@
+// BASE
+
+// *{
+//   &, &:hover, &:focus, &:visited, &:active{
+//     outline: none !important;
+//   }
+// }
+
+body{
+  // line-height: 1.5;
+  font-family: $font-family;
+  font-size: 16px;
+  font-weight: 400;
+  color: $grey900;
+  background-color: $grey100;
+}
+
+.disabled{
+	pointer-events: none;
+	opacity: .8;
+}
+
+
